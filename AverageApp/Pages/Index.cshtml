@@ -9,7 +9,17 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-<component type="typeof(ClientApp.Components.Counter)" render-mode="WebAssembly" />
+<div class="row">
+    <div class="col-6">
+
+        <component type="typeof(ClientApp.Components.Counter)" render-mode="WebAssembly" />
+    </div>
+    <div class="col-6">
+        <component type="typeof(ClientApp.Components.Average)" render-mode="WebAssembly" />
+    </div>
+
+</div>
+
 
 
 
